@@ -12,6 +12,8 @@
 
 <!ELEMENT section ( entry* ) >
 
+<!ATTLIST section name CDATA #REQUIRED>
+
 <!ELEMENT entry (#PCDATA) >
 
 <!ATTLIST entry key CDATA #REQUIRED>
