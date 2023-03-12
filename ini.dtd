@@ -10,11 +10,13 @@
 
 [
 
-<!ELEMENT section ( comment?, entry* ) >
+<!ELEMENT ini ( comment?, section* ) >
 
-<!ATTLIST section version CDATA #FIXED "1.0">
+<!ATTLIST ini version CDATA #FIXED "1.0">
 
 <!ELEMENT comment (#PCDATA) >
+
+<!ELEMENT section ( entry* ) >
 
 <!ELEMENT entry (#PCDATA) >
 
