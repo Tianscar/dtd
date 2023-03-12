@@ -1,0 +1,15 @@
+<!--
+   Copyright 2023 Karstian Lee. All rights reserved.
+  -->
+
+<!-- DTD for INI -->
+
+<!ELEMENT section ( comment?, entry* ) >
+
+<!ATTLIST section version CDATA #FIXED "1.0">
+
+<!ELEMENT comment (#PCDATA) >
+
+<!ELEMENT entry (#PCDATA) >
+
+<!ATTLIST entry key CDATA #REQUIRED>
