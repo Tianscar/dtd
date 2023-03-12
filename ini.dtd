@@ -10,7 +10,7 @@
 
 <!ELEMENT comment (#PCDATA) >
 
-<!ELEMENT section ( entry* ) >
+<!ELEMENT section ( section*, entry* ) >
 
 <!ATTLIST section name CDATA #REQUIRED>
 
