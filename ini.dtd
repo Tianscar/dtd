@@ -4,12 +4,6 @@
 
 <!-- DTD for INI -->
 
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!DOCTYPE ini
-
-[
-
 <!ELEMENT ini ( comment?, section* ) >
 
 <!ATTLIST ini version CDATA #FIXED "1.0">
@@ -21,5 +15,3 @@
 <!ELEMENT entry (#PCDATA) >
 
 <!ATTLIST entry key CDATA #REQUIRED>
-
-]>
