@@ -4,13 +4,13 @@
 
 <!-- DTD for INI -->
 
-<!ELEMENT ini ( comment?, section*, entry* ) >
+<!ELEMENT ini ( comment?, ( section | entry )* >
 
 <!ATTLIST ini version CDATA #FIXED "1.0">
 
 <!ELEMENT comment (#PCDATA) >
 
-<!ELEMENT section ( section*, entry* ) >
+<!ELEMENT section ( section | entry )* >
 
 <!ATTLIST section name CDATA #REQUIRED>
 
